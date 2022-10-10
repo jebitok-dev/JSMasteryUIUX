@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
-import styles from "../style";
 
 const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
@@ -13,7 +12,7 @@ const Navbar = () => {
 					{navLinks.map((nav, index) => (
 						<li
 							key={nav.id}
-							className={`font-poppins font-normal cursor-pointer text-[16px]${
+							className={`font-poppins font-normal cursor-pointer text-[16px] ${
 								index === navLinks.length - 1 ? "mr-0" : "mr-10"
 							} text-white`}
 						>
