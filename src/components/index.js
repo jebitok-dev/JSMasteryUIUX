@@ -9,10 +9,12 @@ import Navbar from "./Navbar";
 import Testimonials from "./Testimonials";
 import GetStarted from "./GetStarted";
 import Stats from "./Stats";
+import Button from "./Button"
 
 export {
   Billing,
   Business,
+  Button,
   CardDeal,
   Client,
   CTA,
