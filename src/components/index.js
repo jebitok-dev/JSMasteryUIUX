@@ -6,9 +6,9 @@ import CTA from "./CTA";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
-import Stats from "./Stats";
 import Testimonials from "./Testimonials";
 import GetStarted from "./GetStarted";
+import Stats from "./Stats";
 
 export {
   Billing,
@@ -16,10 +16,10 @@ export {
   CardDeal,
   Client,
   CTA,
+  Stats,
   Footer,
   Hero,
   Navbar,
-  Stats,
   Testimonials,
   GetStarted
 }
