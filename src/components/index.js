@@ -10,6 +10,7 @@ import Testimonials from "./Testimonials";
 import GetStarted from "./GetStarted";
 import Stats from "./Stats";
 import Button from "./Button"
+import FeedbackCard from "./FeedbackCard";
 
 export {
   Billing,
@@ -23,5 +24,6 @@ export {
   Hero,
   Navbar,
   Testimonials,
-  GetStarted
+  GetStarted,
+  FeedbackCard
 }
